@@ -1,0 +1,189 @@
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 100%;
+  height: 100vh;
+  /* background-color: aquamarine; */
+}
+
+.white_a {
+  color: white;
+  font-size: 11px;
+}
+
+.navbarone {
+  width: 100%;
+  height: 35px;
+  background-color: rgb(7, 60, 135);
+  display: flex;
+  justify-content: space-around;
+}
+
+.navleft {
+  width: 30%;
+  height: 35px;
+  /* background-color: rgb(205, 98, 98); */
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.size {
+  color: white;
+  font-size: 10px;
+}
+
+.navright {
+  width: 20%;
+  height: inherit;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  /* background-color: rgb(213, 151, 58); */
+}
+
+.navbartwo {
+  width: 100%;
+  height: 70px;
+  background-color: white;
+  display: flex;
+  justify-content: space-around;
+}
+
+.navlefttwo {
+  display: flex;
+  justify-content: space-around;
+}
+
+.icon {
+  width: 20%;
+  height: 70px;
+  /* background-color: rgb(165, 165, 189); */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+}
+
+.iconname {
+  width: 70%;
+  height: 70px;
+  /* background-color: rgb(207, 48, 106); */
+  font-size: 13px;
+}
+
+.blue {
+  color: rgb(7, 60, 135);
+}
+
+.navrighttwo {
+  width: 50%;
+  height: 70px;
+}
+
+.navrighttwo ul {
+  height: inherit;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  /* background-color: rgb(85, 144, 144); */
+}
+
+.black a {
+  color: rgb(93, 89, 89);
+  font-size: 15px;
+}
+
+#solution {
+  background-image: url(https://static01.nyt.com/images/2021/05/02/business/00officespace8/00officespace8-superJumbo.jpg?quality=75&auto=webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.imgbox img {
+  width: 90%;
+  height: 300px;
+  border-radius: 25px;
+}
+
+.textbox {
+  width: 40%;
+  min-height: 100px;
+  padding: 10px 20px;
+  color: rgb(7, 60, 135);
+  /* background-color: aquamarine; */
+}
+
+.gray {
+  color: rgb(53, 50, 50);
+}
+
+.color {
+  background-color: rgb(7, 60, 135);
+  padding: 10px 15px;
+  border-radius: 15px;
+  color: white;
+  display: inline-block;
+}
+
+#box {
+  background-color: aqua;
+  display: flex;
+  justify-content: center;
+}
+
+.textboxlast {
+  width: 100%;
+  min-height: 350px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: white;
+}
+
+.bgc {
+  /* border: 1px solid red; */
+  background-color: rgb(7, 60, 135);
+  width: 50%;
+  min-height: 100px;
+  padding: 25px 20px;
+  color: white;
+  font-size: 17px;
+}
+
+.bgc h2 {
+  font-size: 15px;
+}
+
+.a {
+  background-color: rgb(5, 38, 85);
+}
+
+.brend {
+  font-size: 20px;
+}
+
+#our {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.textbox {
+  width: 50%;
+  min-height: 100px;
+  /* background-color: aqua; */
+  text-align: center;
+}
